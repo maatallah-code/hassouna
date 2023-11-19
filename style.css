@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:wght@700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+  body{
+
+    font-family: 'Poppins', sans-serif;
+
+  }
+   h1 , h2{
+
+    font-family: 'Saira', sans-serif;
+   }
+
+
+ul{
+    list-style: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+header{
+    background-color: rgb(222, 213, 213);
+    height: 100vh;
+}
+
+header .navbar{
+    background-color: white;
+    border: 1px solid black;
+   position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem;
+}
+
+header .navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+   
+
+
+}
+
+#logo{
+
+    color: black;
+    font-size: 20pt;
+}
+
+header .navbar nav ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar nav ul a{
+
+    margin: 0 15px;
+    color: black;
+}
+
+header .header-content{
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.5fr 1fr;
+    margin: auto;
+    height: 100%;
+    max-width: 1100px;
+    padding:  5rem 2rem 0;
+}
+
+
+
+header .header-content img{
+
+    max-width: 500px;
+}
+.text1{
+    color:#12D374
+    }
+
+    #home .header-content p span{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #home .header-content h1{
+
+        font-size: 60px;
+        color: black;
+        text-shadow: 13px 3px 3px rgba(0, 0, 0, 0.2);
+
+    }
+
+    #home .header-content .title{
+        font-size: 20px;
+        color: black;
+        margin: 10px 0;
+        font-weight: 500;
+
+    }
+
+
+    #home .header-content .social  {
+
+        margin: 10px 0 ;
+    }
+
+    #home .header-content .social a i {
+        font-size: 38px;
+        padding: 10px;
+        background-color: darkgrey;
+        border-radius: 50%;
+    }
+
+
+
+
+    #home .header-content .social a i:hover{
+
+        transform:  scale(0.85);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
